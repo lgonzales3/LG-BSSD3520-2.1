@@ -50,7 +50,9 @@ function init() {
     
     //Change BG color to red if !== BRG
     
-    if(colorName.toLowerCase() != 'blue','red','green') {
+    if(colorName.toLowerCase() != 'blue' &&
+       colorName.toLowerCase() != 'red' &&
+       colorName.toLowerCase() != 'green') {
         
         h2.append("ACCESS GRANTED!! ");
         emphasis.append(petName, " ", streetName);
